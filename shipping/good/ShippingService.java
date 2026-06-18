@@ -1,1 +1,0 @@
-public class ShippingService{private final ShippingPolicy p; public ShippingService(ShippingPolicy p){this.p=p;} public double calculate(Order o){return p.calculate(o);}}
