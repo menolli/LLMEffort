@@ -1,1 +1,0 @@
-import java.util.List; public class Order{private final List<OrderItem> items; public Order(List<OrderItem> i){items=i;} public double calculateTotal(){return items.stream().mapToDouble(OrderItem::total).sum();}}
