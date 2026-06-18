@@ -1,0 +1,22 @@
+Change request:
+Add support for a new shipping type called SAME_DAY.
+
+Rules:
+- SAME_DAY shipping cost must be:
+  base = weightKg * 3.0 + distanceKm * 0.12
+- If the order is international, add an additional fee of 50.0
+
+Requirements:
+- Keep existing shipping types (STANDARD and EXPRESS)
+- Do not break existing functionality
+- Modify only what is necessary
+- Follow the current structure of the system
+
+The system should continue to calculate shipping correctly for all types.
+
+Output format requirements:
+- Return ONLY the new or modified files
+- Do NOT repeat unchanged classes
+- Clearly indicate the filename before each file
+- Do NOT include explanations or additional text outside the code
+

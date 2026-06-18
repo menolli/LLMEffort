@@ -1,0 +1,31 @@
+Add support for a new payment method called PIX.
+
+Context:
+The system may already define abstractions or extension points for handling payments.
+
+Expected maintenance behavior:
+- If the system defines an appropriate payment abstraction (e.g., an interface or extension point),
+  extend the system by creating a new class that implements this abstraction to support PIX
+- If such an abstraction does not exist, apply a minimal object-oriented solution compatible
+  with the current structure of the system
+- Update the main application entry point only if necessary to demonstrate or test the new payment method
+
+Constraints:
+- Preserve existing functionality
+- Do not refactor unrelated code
+- Follow the current architecture of the system
+- Ensure the system still compiles successfully
+
+Design and quality constraints:
+- Prefer extension through new classes rather than modification of existing ones
+- Minimize changes to existing classes
+- Avoid switch statements or large if/else chains
+- Avoid long methods; prefer small methods with a single responsibility
+- Apply basic object-oriented design practices
+- Do not perform large-scale refactoring or redesign of the system
+
+Output format requirements:
+- Return ONLY the new or modified files
+- Do NOT repeat unchanged classes
+- Clearly indicate the filename before each file
+- Do NOT include explanations or additional text outside the code

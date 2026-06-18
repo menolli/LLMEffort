@@ -1,0 +1,30 @@
+Change request:
+Add support for a new shipping type called SAME_DAY.
+
+Rules:
+- SAME_DAY shipping cost must be:
+  base = weightKg * 3.0 + distanceKm * 0.12
+- If the order is international, add an additional fee of 50.0
+
+Requirements:
+- Keep existing shipping types (STANDARD and EXPRESS)
+- Do not break existing functionality
+- Modify only what is necessary
+- Follow the current structure of the system
+
+The system should continue to calculate shipping correctly for all types.
+
+Design and quality constraints:
+- Prefer extension through new classes rather than modification of existing ones
+- Minimize changes to existing classes
+- Avoid switch statements or large if/else chains
+- Avoid long methods; prefer small methods with a single responsibility
+- Apply basic object-oriented design practices
+- Do not perform large-scale refactoring or redesign of the system
+
+Output format requirements:
+- Return ONLY the new or modified files
+- Do NOT repeat unchanged classes
+- Clearly indicate the filename before each file
+- Do NOT include explanations or additional text outside the code
+

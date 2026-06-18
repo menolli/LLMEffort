@@ -1,0 +1,36 @@
+Add support for a new report format: JSON.
+
+Rules:
+- The system must generate reports in JSON format
+- The JSON output must follow this structure:
+
+{
+  "values": [v1, v2, v3],
+  "total": <total_value>
+}
+
+- Keep existing formats (CSV and PDF) working correctly
+- Do not break existing functionality
+
+Requirements:
+- Modify only what is necessary
+- Follow the current structure of the system
+- Keep code simple and consistent with existing patterns
+
+The system should be able to generate reports for all formats: CSV, PDF, and JSON.
+
+
+Design and quality constraints:
+- Prefer extension through new classes rather than modification of existing ones
+- Minimize changes to existing classes
+- Avoid switch statements or large if/else chains
+- Avoid long methods; prefer small methods with a single responsibility
+- Apply basic object-oriented design practices
+- Do not perform large-scale refactoring or redesign of the system
+
+Output format requirements:
+- Return ONLY the new or modified files
+- Do NOT repeat unchanged classes
+- Clearly indicate the filename before each file
+- Do NOT include explanations or additional text outside the code
+

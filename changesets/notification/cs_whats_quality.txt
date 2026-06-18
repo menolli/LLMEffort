@@ -1,0 +1,31 @@
+Change request:
+The system currently supports EMAIL and SMS notifications. Add support for a new notification channel: WhatsApp.
+
+Requirements:
+- The new channel must send messages using a WhatsApp format:
+  "Sending WHATSAPP to <recipient>: <message>"
+- Do not break existing functionality
+- Keep changes minimal and consistent with the existing structure
+- Follow the same patterns already present in the code
+- Do not introduce unnecessary refactoring
+
+]Constraints:
+- Preserve existing functionality
+- Do not refactor unrelated code
+- Follow the current architecture of the system
+- Ensure the system still compiles successfully
+
+Design and quality constraints:
+- Prefer extension through new classes rather than modification of existing ones
+- Minimize changes to existing classes
+- Avoid switch statements or large if/else chains
+- Avoid long methods; prefer small methods with a single responsibility
+- Apply basic object-oriented design practices
+- Do not perform large-scale refactoring or redesign of the system
+
+Output format requirements:
+- Return ONLY the new or modified files
+- Do NOT repeat unchanged classes
+- Clearly indicate the filename before each file
+- Do NOT include explanations or additional text outside the code
+

@@ -1,0 +1,13 @@
+Add support for a new payment method called PIX.
+
+Constraints:
+- Preserve existing functionality
+- Do not refactor unrelated code
+- Follow the current architecture of the system
+- Ensure the system still compiles successfully
+
+Output format requirements:
+- Return ONLY the new or modified files
+- Do NOT repeat unchanged classes
+- Clearly indicate the filename before each file
+- Do NOT include explanations or additional text outside the code

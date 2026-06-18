@@ -1,0 +1,16 @@
+Change request:
+The system currently supports EMAIL and SMS notifications. Add support for a new notification channel: WhatsApp.
+
+
+Constraints:
+- Preserve existing functionality
+- Do not refactor unrelated code
+- Follow the current architecture of the system
+- Ensure the system still compiles successfully
+
+Output format requirements:
+- Return ONLY the new or modified files
+- Do NOT repeat unchanged classes
+- Clearly indicate the filename before each file
+- Do NOT include explanations or additional text outside the code
+
