@@ -1,1 +1,0 @@
-public class ReportGenerator{public void generate(Report r,String f){if(f.equals("CSV")) new CsvWriter().write(r); else if(f.equals("PDF")) new PdfWriter().write(r);}}
