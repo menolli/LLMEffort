@@ -1,1 +1,0 @@
-public class CreditCardProcessor{public static void process(double v){System.out.println("Paid "+v+" by card");}}

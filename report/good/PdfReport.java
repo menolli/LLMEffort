@@ -1,1 +1,0 @@
-public class PdfReport implements ReportFormatter{public void write(Report r){System.out.println("PDF: "+r.data());}}

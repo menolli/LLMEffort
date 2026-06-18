@@ -1,1 +1,0 @@
-public class Main{public static void main(String[]a){System.out.println(new ShippingCalculator().calculate(new Order(10),false));}}

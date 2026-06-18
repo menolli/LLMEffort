@@ -1,1 +1,0 @@
-import java.util.*; public class Main{public static void main(String[]a){Order o=new Order(List.of(new OrderItem("Book",50,2),new OrderItem("Pen",5,3))); new OrderService(new CreditCardPayment()).process(o);}}

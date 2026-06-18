@@ -1,1 +1,0 @@
-public class OrderService{public void process(Order o,String t){double tot=o.calculateTotal(); if(t.equals("CREDIT")) CreditCardProcessor.process(tot); else if(t.equals("PIX")) PixProcessor.process(tot); System.out.println("Order finalized");}}

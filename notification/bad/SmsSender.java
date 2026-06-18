@@ -1,1 +1,0 @@
-public class SmsSender{public void send(Notification n){System.out.println("SMS: "+n.msg());}}

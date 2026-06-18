@@ -1,1 +1,0 @@
-public class OrderService{private final PaymentMethod p; public OrderService(PaymentMethod p){this.p=p;} public void process(Order o){p.pay(o.calculateTotal()); System.out.println("Order finalized");}}

@@ -1,1 +1,0 @@
-public class NotificationService{private final NotificationChannel ch; public NotificationService(NotificationChannel c){ch=c;} public void send(Notification n){ch.send(n);}}
