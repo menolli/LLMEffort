@@ -1,0 +1,23 @@
+Kind,Name,PercentLackOfCohesion,MaxInheritanceTree,SumCyclomatic,CountClassCoupled,CountClassDerived,CountDeclMethodAll,CountLineCode,CountInput,CountOutput
+Package,"(Unnamed_Package)",,,10,,,,56,,
+Public Class,"CsvReportFormatter",0,1,2,3,0,1,9,,
+File,"CsvReportFormatter.java",,,2,,,,10,,
+Public Method,"CsvReportFormatter.write",,,2,,,,8,3,3
+Public Class,"Main",0,1,1,5,0,1,7,,
+File,"Main.java",,,1,,,,10,,
+Public Static Method,"Main.main",,,1,,,,6,0,4
+Public Class,"PdfReportFormatter",0,1,2,3,0,1,9,,
+File,"PdfReportFormatter.java",,,2,,,,10,,
+Public Method,"PdfReportFormatter.write",,,2,,,,8,3,3
+Public Class,"ReportData",0,1,3,2,0,3,11,,
+Public Constructor,"ReportData.ReportData",,,1,,,,3,2,2
+Public Method,"ReportData.getTotal",,,1,,,,3,4,4
+Public Method,"ReportData.getValues",,,1,,,,3,3,1
+File,"ReportData.java",,,3,,,,14,,
+Public Interface,"ReportFormatter",0,0,0,1,2,1,2,,
+File,"ReportFormatter.java",,,0,,,,3,,
+Abstract Method,"ReportFormatter.write",,,0,,,,1,1,0
+Public Class,"ReportService",0,1,2,2,0,2,8,,
+Public Constructor,"ReportService.ReportService",,,1,,,,3,2,2
+Public Method,"ReportService.generate",,,1,,,,3,3,1
+File,"ReportService.java",,,2,,,,9,,

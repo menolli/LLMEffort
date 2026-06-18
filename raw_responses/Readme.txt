@@ -1,0 +1,1 @@
+This directory contains the original and final versions of each project. For each prompt, we provide the original project version and the version generated after the execution of the maintenance task, considering both well-structured and poorly structured projects

@@ -1,0 +1,3 @@
+The project_analysis_metrics file provides the analysis of each project, including the software metrics considered in the study, project size information, and the metric values extracted from both project versions using the Understand tool besides a qualitative analysis of the initial projects.
+
+The Statistical_Results file contains the results of the statistical tests conducted on the collected software metrics.

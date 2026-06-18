@@ -1,0 +1,3 @@
+The code_analysis file presents an analysis of the number of classes, methods, lines of code, and the size of the modifications for each project, considering both prompts and both versions of each project. It also includes a qualitative analysis of the poorly structured projects.
+
+The quantitative_metrics file contains the results of the maintenance executions for each project, including execution time, cost, input and output token counts, and the input-to-output token ratio. In addition, the file provides the results of statistical analyses comparing these metrics between well-structured and poorly structured project versions, as well as comparisons between the different prompts within each project version.
